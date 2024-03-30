@@ -10,17 +10,18 @@ body {
 }
 
 header {
-    padding: 20px;
-    text-align: center;
-    height: 300px; /* Default height for mobile */
+    background-image: url('./Images/Stanley\ website\ banner-\ Mobile.png');
     background-size: cover;
     background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 300px; /* Adjust height as needed */
 }
 
 h1 {
     font-size: 36px;
     margin: 0;
-    color: #EEEEEE;
+    color: #EEEEEE; /* Ensure text is visible against the background */
 }
 
 nav {
@@ -74,35 +75,4 @@ section {
 
 .profile-img {
     display: none; /* Hide the profile image */
-}
-
-/* Media query for desktop screens */
-@media screen and (min-width: 768px) {
-    header {
-        height: 400px; /* Adjust height for desktop */
-        background-image: url('./Images/Stanley\ website\ banner\ Desktop.png');
-    }
-}
-
-/* Media query for tablets */
-@media screen and (min-width: 600px) and (max-width: 767px) {
-    header {
-        height: 350px; /* Adjust height for tablets */
-        background-image: url(./Images/Stanley\ website\ banner-\ Mobile.png);
-    }
-}
-
-/* Media query for mobile devices */
-@media screen and (max-width: 599px) {
-    header {
-        height: 250px; /* Adjust height for mobile */
-        background-image: url('./Images/Stanley\ website\ banner-\ Mobile.png');
-    }
-}
-
-/* Footer */
-footer {
-    background-color: #76ABAE;
-    text-align: center;
-    padding: 10px;
 }
