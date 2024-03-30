@@ -1,0 +1,108 @@
+/* Stylesheet.css */
+
+/* Common styles for all screen sizes */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    height: 300px; /* Default height for mobile */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #EEEEEE;
+}
+
+nav {
+    background-color: #76ABAE;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #EEEEEE;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-me {
+    background-color: #31363F;
+}
+
+.about-me p {
+    font-size: 20px;
+}
+
+.projects {
+    background-color: #76ABAE;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: #31363F;
+    color: #EEEEEE;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile-img {
+    display: none; /* Hide the profile image */
+}
+
+/* Media query for desktop screens */
+@media screen and (min-width: 768px) {
+    header {
+        height: 400px; /* Adjust height for desktop */
+        background-image: url('./Images/Stanley\ website\ banner\ Desktop.png');
+    }
+}
+
+/* Media query for tablets */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    header {
+        height: 350px; /* Adjust height for tablets */
+        background-image: url(./Images/Stanley\ website\ banner-\ Mobile.png);
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 599px) {
+    header {
+        height: 250px; /* Adjust height for mobile */
+        background-image: url('./Images/Stanley\ website\ banner-\ Mobile.png');
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #76ABAE;
+    text-align: center;
+    padding: 10px;
+}
