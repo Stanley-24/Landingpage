@@ -195,3 +195,12 @@ section {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+button{
+   background-color: #76ABAE;
+   color: #fff;
+    font-style: italic;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    
+}
