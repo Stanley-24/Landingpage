@@ -206,3 +206,7 @@ button{
     margin-bottom: 10px;
     
 }
+button a {
+    color: #fff;
+    text-decoration: none;
+}
