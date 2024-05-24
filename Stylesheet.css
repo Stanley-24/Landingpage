@@ -1,4 +1,3 @@
-/* Stylesheet.css */
 
 /* Common styles for all screen sizes */
 body {
@@ -29,11 +28,12 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
-    padding: 0;
+    padding: 15px;
 }
 
 .navigation li {
     display: inline-block;
+    
 }
 
 .navigation a {
@@ -41,7 +41,9 @@ h1 {
     border-right: 1px solid rgba(0, 0, 0, .3);
     color: #EEEEEE;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 12px 10px;
+    margin: 3px;
+    
 }
 
 section {
